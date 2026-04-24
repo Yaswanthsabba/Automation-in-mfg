@@ -1,0 +1,5 @@
+trixy:
+    rfid_slider_controller:
+        type: velocity_controllers/JointPositionController
+        joint: rfid_slider
+        pid: {p: 100.0, i: 0.01, d: 1.0}
