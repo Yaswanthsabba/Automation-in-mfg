@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="world_file" default="$(find trixy)/worlds/warehouse.world"/>
+  <node name="gazebo" pkg="gazebo_ros" type="gazebo" args="$(arg world_file)"/>
+</launch>
